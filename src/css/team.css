@@ -1,0 +1,315 @@
+.wrap{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-wrap: wrap;
+}
+
+.member{
+    display: none;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    padding: 15px;
+}
+
+img{
+    height: 15vh;
+}
+
+#team-wrap{
+    display:grid;
+    grid-template-columns: 33.33% 33.33% 33.33%; 
+    grid-template-rows: auto;
+    grid-template-areas: 
+                        "coreteam coreteam coreteam"
+                        "publicity event marketing"
+                        "technical logo design";
+}
+
+.team-card{
+    height: 20vw;
+    width: 15vw;
+
+    background-color: #FDFEFD;
+    color: #383466;
+    box-shadow: -0.5rem 1rem 1rem #B3B2B5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 15px;
+    margin: 4.1666666667vw;
+    padding: 25px;
+    font-size: 2vw;
+}
+
+#core-team{
+    grid-area: coreteam;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#core-team:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+#core-team:hover > #chairperson  {
+    display: block;
+    position: absolute;
+    top: 55vh;
+}
+#core-team:hover > #vice-chairperson  {
+    display: block;
+    position: absolute;
+    top: 45vh;
+    left: -16vw;
+}
+#core-team:hover > #secretary  {
+    display: block;
+    position: absolute;
+    top: 45vh;
+    left: 22vw;
+}
+#core-team:hover > #joint-secretary  {
+    display: block;
+    position: absolute;
+    top: 12vh;
+    left: 24vw;
+}
+#core-team:hover > #treasurer  {
+    display: block;
+    position: absolute;
+    top: 12vh;
+    left: -20vw;
+}
+
+#technical{
+    grid-area: technical;
+}
+
+#technical:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+#technical:hover > #sahil{
+    display: block;
+    position: absolute;
+    top: -40vh;
+    left: 0;
+}
+
+#technical:hover > #soham{
+    display: block;
+    position: absolute;
+    top: -40vh;
+    left: 20vw;
+}
+
+#technical:hover > #aapurva{
+    display: block;
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+}
+
+#technical:hover > #jainam{
+    display: block;
+    position: absolute;
+    top: 8vh;
+    left: 35vw;
+}
+
+#technical:hover > #gaurish{
+    display: block;
+    position: absolute;
+    top: -12vh;
+    left: 47vw;
+}
+
+#technical:hover > #gaurav{
+    display: block;
+    position: absolute;
+    top: -38vh;
+    left: 50vw;
+}
+
+#design{
+    grid-area: design;
+}
+
+#design:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+#design:hover > #rohit{
+    display: block;
+    position: absolute;
+    top: -40vh;
+    left: 0;
+}
+
+#event{
+    grid-area:event;
+}
+
+#event:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+#event:hover > #akshita{
+    display: block;
+    position: absolute;
+    left: -8vw;
+    top: -30vh; 
+}
+
+#event:hover > #mangalam{
+    display: block;
+    position: absolute;
+    left: 11vw;
+    top: -30vh; 
+}
+
+#event:hover > #adil{
+    display: block;
+    position: absolute;
+    left: -15vw;
+    top: 30vh; 
+}
+
+#event:hover > #roshan{
+    display: block;
+    position: absolute;
+    left: -20vw;
+    top: -4vh; 
+}
+
+#event:hover > #uma{
+    display: block;
+    position: absolute;
+    left: 25vw;
+    top: -4vh;  
+}
+
+#event:hover > #sarven{
+    display: block;
+    position: absolute;
+    left: 20vw;
+    top: 30vh;  
+}
+
+#event:hover > #ved{
+    display: block;
+    position: absolute;
+    left: 3vw;
+    top: 43vh;  
+}
+
+#marketing{
+    grid-area: marketing;
+}
+
+#marketing:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+#marketing:hover > #hiten{
+    display: block;
+    position: absolute;
+    left: 5vw;
+    top: -30vh;
+}
+
+#marketing:hover > #akhilesh{
+    display: block;
+    position: absolute;
+    left: -13vw;
+    top: -20vh;
+}
+
+#marketing:hover > #huzaifah{
+    display: block;
+    position: absolute;
+    left: -28vw;
+    top: -5vh;
+}
+
+#marketing:hover > #devesh{
+    display: block;
+    position: absolute;
+    left: -28vw;
+    top: 25vh;
+}
+
+#marketing:hover > #rishika{
+    display: block;
+    position: absolute;
+    left: -13vw;
+    top: 45vh;
+}
+
+#publicity{
+    grid-area: publicity;
+}
+
+#publicity:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+#publicity:hover > #tejeshwani{
+    display: block;
+    position: absolute;
+    left: 0vw;
+    top: -30vh;
+}
+
+#publicity:hover > #atharva{
+    display: block;
+    position: absolute;
+    left: 18vw;
+    top: -30vh;
+}
+
+#publicity:hover > #vijay{
+    display: block;
+    position: absolute;
+    left: 32vw;
+    top: -10vh;
+}
+
+#publicity:hover > #dev{
+    display: block;
+    position: absolute;
+    left: 43vw;
+    top: 15vh;
+}
+#publicity:hover > #manish{
+    display: block;
+    position: absolute;
+    left: 32vw;
+    top: 40vh;
+}
+#publicity:hover > #vinit{
+    display: block;
+    position: absolute;
+    left: 19vw;
+    top: 55vh;
+}
+#publicity:hover > #nayan{
+    display: block;
+    position: absolute;
+    left: 5vw;
+    top: 55vh;
+}
+

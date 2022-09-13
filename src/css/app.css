@@ -1,0 +1,16 @@
+body{
+    background-color: #FDFEFD;
+}
+
+main {
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #000000;
+}
+
+header {
+    font-size:2.5vh;
+}
+
